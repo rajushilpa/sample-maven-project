@@ -153,15 +153,15 @@
   
  <distributionManagement>
     <repository>
-        <id>My_Artifactory_Releases</id>
-        <name>My_Artifactory-releases</name>
-        <url>http://my.maven.repository.internal/artifactory/release</url>
+        <id>nexus</id>
+        <name>admin</name>
+        <url>http://107.22.31.22:8081/repository/maven_web-app-release/</url>
     </repository>
     
     <snapshotRepository>
-        <id>My_Artifactory_Snapshots</id>
-        <name>My_Artifactory-snapshots</name>
-        <url>http://my.maven.repository.internal/artifactory/snapshot</url>
+        <id>nexus</id>
+        <name>admin</name>
+        <url>http://107.22.31.22:8081/repository/maven_web-app-snaphot/</url>
     </snapshotRepository>
 
 </distributionManagement>
